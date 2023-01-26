@@ -1,0 +1,6 @@
+<button
+*ngIf="canPurchase | async as canPurchase"
+[disabled]="!canPurchase"
+>
+Buy
+</button>
